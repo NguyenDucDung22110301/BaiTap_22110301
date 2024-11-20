@@ -1,0 +1,19 @@
+server:
+  port: 8090
+  servlet:
+    context-path: /projectWebDemo
+
+spring:
+  datasource:
+    url: "jdbc:mysql://localhost:3306/projectWeb"
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  h2:
+    console:
+      enabled: true
+jwt:
+  signKey: "llOLLAGjN8hjLQTCefRomDKTGzzBxZISXiNKTgt9LNai5o1gHSCkFr9uR5cmrNFJ"
